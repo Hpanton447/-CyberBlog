@@ -17,5 +17,5 @@
 
 <pre><code>
   // This is a simple XSS payload
-  <scrip>alert(1)</script>;
+  <script>alert(1)</script>;
 </code></pre>
