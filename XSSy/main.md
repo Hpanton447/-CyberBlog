@@ -2,7 +2,7 @@
 
 | Section      | Link |
 |-------------|------|
-| XSS Basics  | [Go to Page](link-to-xss-basics) |
+| Basic-Reflective-XSS  | [Go to Page](XSSy/Basic-Reflective-XSS.md) |
 | Stored XSS  | [Go to Page](link-to-stored-xss) |
 | Reflected XSS | [Go to Page](link-to-reflected-xss) |
 | DOM XSS     | [Go to Page](link-to-dom-xss) |
