@@ -18,15 +18,16 @@
 <pre><code>// This is a simple XSS payload 
 &lt;script&gt;alert(1)&lt;/script&gt;;</code></pre>
 
-<p>The code &lt;script&gt;alert(1)&lt;/script&gt; is a simple example of a Cross-Site Scripting (XSS) payload. Here’s a break down of what each part does:
+<p>The code &lt;script&gt;alert(1)&lt;/script&gt; is a simple example of a Cross-Site Scripting (XSS) payload. Here’s a break down of what each part does:</p>
 
-- &lt;script&gt;: This tag is used in HTML to define a block of JavaScript code.
+<ul>
+  <li>&lt;script&gt;: This tag is used in HTML to define a block of JavaScript code.</li>
+  <li>alert(1): This is a JavaScript function that triggers a browser alert box displaying the number 1.</li>
+  <li>&lt;/script&gt;: This closes the <script> tag, marking the end of the JavaScript code.</li>
+</ul>
 
-- alert(1): This is a JavaScript function that triggers a browser alert box displaying the number 1.
+<p>When this code is injected into a vulnerable website or application, it will execute the JavaScript, causing a pop-up alert with the number 1 to appear in the user's browser. This demonstrates a basic XSS attack, where malicious JavaScript is injected into a web page that is then executed in the context of the user's browser. Below we can see this on the website:</p>
 
-- &lt;/script&gt;: This closes the <script> tag, marking the end of the JavaScript code.
-
-When this code is injected into a vulnerable website or application, it will execute the JavaScript, causing a pop-up alert with the number 1 to appear in the user's browser. This demonstrates a basic XSS attack, where malicious JavaScript is injected into a web page that is then executed in the context of the user's browser. Below we can see this on the website:</p>
 
  <div style="text-align: left;">
   <img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/basicReflectiveXSS/image3.png" alt="XSSY Logo" width="800" height="600">
