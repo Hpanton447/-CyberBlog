@@ -1,4 +1,4 @@
-<div style="text-align: right;">
+<div style="text-align: left;">
 
 # HPanton447 Cyber Blog
 
