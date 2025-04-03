@@ -1,5 +1,3 @@
-<div style="text-align: left;">
-
 # HPanton447 Cyber Blog
 
 ## About Me
@@ -31,4 +29,4 @@ Expand on the subject, including details, examples, and explanations as necessar
 
 **Author:** Harvey Panton
 
-</div>
+
