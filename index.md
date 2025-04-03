@@ -1,4 +1,4 @@
-Welcome to my page, here is where I document all my code, research CTFs and more. Please feel free to explore. My linkedIn is at the bottom off the page if you want to have a chat or connect feel free! 
+Welcome to this cyber security hub! Dive into a collection of code, CTF challenges, and research, all shared for exploration and learning. Feel free to browse, get inspired, and connect—LinkedIn details are at the bottom for anyone up for a chat! 🚀🔍💻
 
 ## Cool Stuff
 - [XSSy Walkthroughs](XSSy/main.md)
@@ -8,26 +8,3 @@ Welcome to my page, here is where I document all my code, research CTFs and more
 
 - [LinkedIn](https://www.linkedin.com/in/harvey-panton-7606202a9/)
 - [My CV]()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Author:** Harvey Panton
-
-
