@@ -37,3 +37,9 @@
 
 <pre><code>// Our new Payload
 &lt;script&gt;alert(document.cookie)&lt;/script&gt;;</code></pre>
+
+<p>We can see that with this new payload, we are given the 'cookie' (or in this case, the flag). We can then copy and paste this URL into the submit payload feature, earning our first point.</p>
+
+ <div style="text-align: left;">
+  <img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/basicReflectiveXSS/image4.png" alt="XSSY Logo" width="600" height="400">
+</div> 
