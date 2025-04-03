@@ -8,7 +8,9 @@ const aboutMe = {
     name: "Harvey Panton",
     profession: "Graduate Consultant at Pentest People",
     interests: ["Web Application Testing", "Cyber Secuirty", "TBC"],
-    bio: "Hi, I’m Harvey, a Cyber Security Consultant at Pentest People in Leeds. I specialise in identifying and addressing security vulnerabilities to help organisations strengthen their defences."
+    bio: "Hi, I’m Harvey, a Cyber Security Consultant at Pentest People in Leeds. 
+    I specialise in identifying and addressing security vulnerabilities to help 
+    organisations strengthen their defences."
 };
 console.log(aboutMe);
 ```
