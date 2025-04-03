@@ -5,7 +5,7 @@
 Expand on the subject, including details, examples, and explanations as necessary.
 
 ## Table of Contents
-- [Papers and Research](/XXSy/Basic-Reflective-XSS.md)
+- [Papers and Research](./XXSy/Basic-Reflective-XSS.md)
 - [XSSy Walkthroughs](#main-content)
 
 ## Additional Links
