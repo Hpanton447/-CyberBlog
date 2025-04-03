@@ -30,5 +30,5 @@
 
 
  <div style="text-align: left;">
-  <img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/basicReflectiveXSS/image3.png" alt="XSSY Logo" width="800" height="600">
+  <img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/basicReflectiveXSS/image3.png" alt="XSSY Logo" width="600" height="400">
 </div> 
