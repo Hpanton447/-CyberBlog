@@ -32,3 +32,8 @@
  <div style="text-align: left;">
   <img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/basicReflectiveXSS/image3.png" alt="XSSY Logo" width="600" height="400">
 </div> 
+
+<p>The objective of this lab is to run <code>alert(document.cookie)</code>, so instead of alerting '1', we need to modify our payload to <code>document.cookie</code>. To clarify, <code>document.cookie</code> is a property of the document object in JavaScript that provides access to the cookies associated with the current web page. Cookies are small pieces of data stored in the browser, used for maintaining session states, tracking user preferences, or managing authentication. When accessed, <code>document.cookie</code> returns a string containing all cookies in the format of <code>key=value</code>.</p>
+
+<pre><code>// Our new Payload
+&lt;script&gt;alert(document.cookie)&lt;/script&gt;;</code></pre>
