@@ -10,7 +10,7 @@
 <p> A quick input of 'User447' shows the value we put in is reflected not only on the page but also in the url aswell. Know we now that the input is reflected onto the page we can try building a basic payload to trigger an alert. </p>
   
  <div style="text-align: left;">
-  <img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/89fc110165cc5825a0d3cca5094faf75f12f22f9/XSSy/images/basicReflectiveXSS/image2.png" alt="XSSY Logo" width="300" height="150">
+  <img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/basicReflectiveXSS/image2.png" alt="XSSY Logo" width="300" height="150">
 </div> 
   
 <p> XSS works by injecting malicious code (usually JavaScript) into a website or web application. This can be done in a manor of differnt ways as will be shown throught these guides but the most simple way is using the &lt;script&gt; tags. Below is an example of a simple XSS payload. </p>
