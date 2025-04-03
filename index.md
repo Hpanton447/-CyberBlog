@@ -1,6 +1,9 @@
+<div style="text-align: right;">
+
 # HPanton447 Cyber Blog
 
 ## About Me
+
 
 ```javascript
 const aboutMe = {
@@ -27,3 +30,5 @@ Expand on the subject, including details, examples, and explanations as necessar
 
 
 **Author:** Harvey Panton
+
+</div>
