@@ -1,15 +1,20 @@
-# Title Goes Here
+# HPanton447 Cyber Blog
 
-**Author:** Harvey Panton
+## About Me
+
+```javascript
+const aboutMe = {
+    name: "Harvey Panton",
+    profession: "Graduate Consultant at Pentest People",
+    interests: ["Web Application Testing", "Cyber Secuirty", "TBC"],
+    bio: "Hi, I’m Harvey, a Cyber Security Consultant at Pentest People in Leeds. I specialise in identifying and addressing security vulnerabilities to help organisations strengthen their defences."
+};
+console.log(aboutMe);
+```
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Main Content](#main-content)
-- [Additional Links](#additional-links)
-
-## Introduction
-
-This is my webpage bla bla bla
+- [Papers and Research](#introduction)
+- [XSSy Walkthroughs](#main-content)
 
 ## Main Content
 
@@ -17,7 +22,8 @@ Expand on the subject, including details, examples, and explanations as necessar
 
 ## Additional Links
 
-- [Page 1](link-to-page-1)
-- [Page 2](link-to-page-2)
-- [Page 3](link-to-page-3)
+- [LinkedIn](https://www.linkedin.com/in/harvey-panton-7606202a9/)
+- [My CV]()
 
+
+**Author:** Harvey Panton
