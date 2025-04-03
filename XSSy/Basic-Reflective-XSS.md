@@ -1,5 +1,5 @@
 # This is the Basic Reflective XSS Walkthorugh
 
 
-<img src="https://yourusername.github.io/yourrepo/images/xssy-logo.png" alt="XSSY Logo" width="300" height="150">
-<img src="img/screenshot2.PNG" class="img-responsive" alt=""> </div>
+<img src="images/basicReflectiveXSS/image1.png" alt="XSSY Logo" width="300" height="150">
+<img src="images/basicReflectiveXSS/image1.png" class="img-responsive" alt=""> </div>
