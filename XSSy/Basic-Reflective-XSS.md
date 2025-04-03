@@ -1,4 +1,4 @@
-<h1> This is the Basic Reflective XSS Walkthorugh </h1>
+<h1>Basic Reflective XSS Walkthorugh</h1>
 <hr>
 
 <p>This is the first XSS challenge on XSSy, and as such, it is designed to be the simplest one. It introduces the fundamental concept of XSS, demonstrating what an ideal outcome should look like. Below is a basic page with an input field asking for your name.</p>
