@@ -27,3 +27,7 @@
 - &lt;/script&gt;: This closes the <script> tag, marking the end of the JavaScript code.
 
 When this code is injected into a vulnerable website or application, it will execute the JavaScript, causing a pop-up alert with the number 1 to appear in the user's browser. This demonstrates a basic XSS attack, where malicious JavaScript is injected into a web page that is then executed in the context of the user's browser. Below we can see this on the website:</p>
+
+ <div style="text-align: left;">
+  <img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/basicReflectiveXSS/image3.png" alt="XSSY Logo" width="800" height="600">
+</div> 
