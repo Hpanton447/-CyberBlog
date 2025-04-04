@@ -33,7 +33,7 @@
 </ul>
     
 <h2>Finding a Unicode-Based Bypass</h2>
-<p> Now that Unicode has been defined and its behaviour explained, the next step is to explore how it can be implemented in a payload to bypass input sanitisation mechanisms. After extensive research and with assistance from various sources, including ChatGPT, a useful reference was found:(<a href="https://www.securitum.com/unicodes_role_in_xss_vulnerabilities">source</a>) d</p>
+<p> Now that Unicode has been defined and its behaviour explained, the next step is to explore how it can be implemented in a payload to bypass input sanitisation mechanisms. After extensive research and with assistance from various sources, including ChatGPT, a useful reference was found:(<a href="https://www.securitum.com/unicodes_role_in_xss_vulnerabilities">source</a>)</p>
     
 <p>In this post, Jacek Siwek highlights that certain Unicode characters may bypass validation mechanisms, potentially leading to successful XSS attacks. He further explains that some databases exhibit behaviour where specific Unicode characters are automatically converted into their ASCII equivalents during storage. This transformation can reintroduce malicious payloads that were previously filtered, thereby exposing the application to XSS—even when sanitisation appears to be in place.</p>
     
