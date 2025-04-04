@@ -1,4 +1,4 @@
-<h1>Unicode XSS</h1>
+<h1>Unicode XSS Walkthorugh</h1>
 <a href="main.html">Go back to Walkthroughs Page</a>
 <hr>
 
