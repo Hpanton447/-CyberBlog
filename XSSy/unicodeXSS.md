@@ -33,9 +33,9 @@
 </ul>
     
 <h2>Finding a Unicode-Based Bypass</h2>
-<p>After extensive research, a post by Jacek Siwek (<a href="https://www.securitum.com/unicodes_role_in_xss_vulnerabilitiesn">source</a>) discusses how Unicode can be used to bypass validation mechanisms, potentially leading to XSS vulnerabilities.</p>
+<p> Now that Unicode has been defined and its behaviour explained, the next step is to explore how it can be implemented in a payload to bypass input sanitisation mechanisms. After extensive research and with assistance from various sources, including ChatGPT, a useful reference was found:(<a href="https://www.securitum.com/unicodes_role_in_xss_vulnerabilities">source</a>) d</p>
     
-<p>Some databases automatically convert certain Unicode characters into their ASCII equivalents during data storage, which could inadvertently bypass XSS protections.</p>
+<p>In this post, Jacek Siwek highlights that certain Unicode characters may bypass validation mechanisms, potentially leading to successful XSS attacks. He further explains that some databases exhibit behaviour where specific Unicode characters are automatically converted into their ASCII equivalents during storage. This transformation can reintroduce malicious payloads that were previously filtered, thereby exposing the application to XSS—even when sanitisation appears to be in place.</p>
     
 <h3>Unicode Character Examples:</h3>
 <ul>
@@ -44,4 +44,4 @@
 <li><code>＜</code> is the fullwidth less-than sign (U+FF1C)</li>
 </ul>
     
-<p>Although the database filters out standard <code>&lt;</code> and <code>&gt;</code> tags, using fullwidth versions might bypass validation as they are not recognised as harmful HTML but could still function as part of a malicious script.</p>
+<p>Here are three Unicode characters that appear visually similar but have different Unicode code points. The theory is that while a database may filter standard < and > characters (i.e., less-than and greater-than), using the fullwidth versions—＜ (U+FF1C) and ＞ (U+FF1E)—may bypass validation. The sanitisation routine may not recognise these as dangerous, mistakenly treating them as harmless text rather than potential HTML tags, thereby enabling injection of malicious code.</p>
