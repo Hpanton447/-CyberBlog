@@ -5,19 +5,19 @@
     
 <h2>Initial Input Test</h2>
 <p>As with all starts to an XSS challenge, we start with the input of 'User447' to see if we can observe how the application handles our input. In this case, the input is reflected both on the page and in the URL.</p>
-<img src="image1.png" alt="Input Image 1">
-<img src="image2.png" alt="Input Image 2">
+<img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/unicodeXSS/image1.png" alt="Input Image 1">
+<img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/unicodeXSS/image2.png" alt="Input Image 2">
     
 <h2>Injecting a Simple XSS Payload</h2>
 <p>The next step is to inject a simple XSS payload into the input field to see how the lab reacts to script tags and similar elements.</p>
     
 <pre><code>&lt;script&gt;alert(1)&lt;/script&gt;</code></pre>
     
-<img src="image3.png" alt="Input Image 3">
+<img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/unicodeXSS/image3.png" alt="Input Image 3">
     
 <p>The output in the page source shows that the <code>&lt;</code> and <code>&gt;</code> tags are being sanitised by the application. However, everything else seems to be going through fine. If we can find a way to bypass this, we should have a working script.</p>
     
-<img src="image4.png" alt="Input Image 4">
+<img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/unicodeXSS/image4.png" alt="Input Image 4">
     
 <h2>Understanding Unicode's Role</h2>
 <p>The title of the lab is Unicode, suggesting that a Unicode-based payload might be required. However, Unicode XSS payloads are less commonly discussed, so research is necessary.</p>
