@@ -51,4 +51,5 @@
 <p>With our new discovery of 'fullwidth less-than' and 'small less-than' signs we can try modify our orginal payload to pop our alert.</p>
 
 <pre><code>＜script＞alert(document.cookie)＜/script＞ // Full-width Payload
-&lt;script&gt;alert(doscument.cookie)&lt;/script&gt; // Normal Payload</code></pre>
+&lt;script&gt;alert(doscument.cookie)&lt;/script&gt; // Normal Payload
+﹤script﹥alert(document.cookie)﹤/script﹥ // Small-width Payload</code></pre>
