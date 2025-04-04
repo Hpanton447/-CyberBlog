@@ -1,5 +1,5 @@
-## $ Welcome User,
-[Go to Home Page](index.md)
+## $ Welcome User
+[Go to Home Page](./index.md)
 
 # XSSY Walkthroughs  
 
