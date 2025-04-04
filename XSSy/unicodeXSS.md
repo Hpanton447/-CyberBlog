@@ -1,8 +1,7 @@
 <h1>Unicode XSS</h1>
-</h1><a href="main.html">Go back to Walkthroughs Page</a>
+<a href="main.html">Go back to Walkthroughs Page</a>
 <hr>
-    
-<h1>Unicode XSS</h1>
+
 <p>This is my first attempt at a moderate lab and I anticipate that it will take a lot more research and patience than the easy labs. The moderate labs are worth 5 points a pop and this first lab is called Unicode XSS.</p>
     
 <h2>Initial Input Test</h2>
