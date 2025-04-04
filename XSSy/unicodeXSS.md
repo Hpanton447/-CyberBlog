@@ -53,3 +53,10 @@
 <pre><code>＜script＞alert(document.cookie)＜/script＞ // Fullwidth Payload
 &lt;script&gt;alert(doscument.cookie)&lt;/script&gt; // Normal Payload
 ﹤script﹥alert(document.cookie)﹤/script﹥ // Small-width Payload</code></pre>
+
+<h2>Trying the Fullwidth Payload</h2>
+
+<p>As shown in the following screenshots, the fullwidth payload successfully tricked the web app into triggering an XSS alert. This led to getting the flag and completing the lab. Interestingly, checking the page source shows that the web app converted the Unicode character ＜ into its ASCII equivalent &lt;, without recognising it was part of a malicious script. Futher reinforcing the source from Jacek Siwek.</p>
+
+<img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/unicodeXSS/image5.png" alt="Input Image 5">
+<img src="https://raw.githubusercontent.com/Hpanton447/CyberBlog/refs/heads/main/XSSy/images/unicodeXSS/image6.png" alt="Input Image 6">
