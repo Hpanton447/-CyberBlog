@@ -1,5 +1,5 @@
 <h1>Basic Reflective XSS Walkthorugh</h1>
-<a href="main.md">Go back to Walkthroughs Page</a>
+<a href="main.html">Go back to Walkthroughs Page</a>
 <hr>
 
 <p>This is the first XSS challenge on XSSy, and as such, it is designed to be the simplest one. It introduces the fundamental concept of XSS, demonstrating what an ideal outcome should look like. Below is a basic page with an input field asking for your name.</p>
