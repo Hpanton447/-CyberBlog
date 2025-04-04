@@ -47,4 +47,7 @@
     
 <p>Here are three Unicode characters that appear visually similar but have different Unicode code points. The theory is that while a database may filter standard < and > characters (i.e., less-than and greater-than), using the fullwidth versions ＜ (U+FF1C) and ＞ (U+FF1E) may bypass validation. The sanitisation routine may not recognise these as dangerous, mistakenly treating them as harmless text rather than potential HTML tags, thereby enabling injection of malicious code.</p>
 
-<h1>Finding a Working Exploit</h1>
+<h2>Finding a Working Exploit</h2>
+<p>With our new discovery of 'fullwidth less-than' and 'small less-than' signs we can try modify our orginal payload to pop our alert.</p>
+
+<pre><code>＜script＞alert(document.cookie)＜/script＞</code></pre>
