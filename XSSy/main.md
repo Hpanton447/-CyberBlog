@@ -8,13 +8,13 @@ This page is dedicated to walkthroughs of [XSSY](https://xssy.uk/). As someone n
 
 For discussions and insights, check out the [GitHub Discussions page](https://github.com/paj28/xssy/discussions).
 
+| Section              | Level | Link                              |
+|----------------------|-------|-----------------------------------|
+| Basic-Reflective-XSS  | EASY  | [Go to Page](Basic-Reflective-XSS.md) |
+| Stored XSS            | EASY  | [Go to Page](link-to-stored-xss)  |
+| Reflected XSS         | EASY  | [Go to Page](link-to-reflected-xss) |
+| DOM XSS               | EASY  | [Go to Page](link-to-dom-xss)     |
 
-| Section   |Level|   | Link |
-|-------------|------|------|
-| Basic-Reflective-XSS  |EASY| [Go to Page](Basic-Reflective-XSS.md) |
-| Stored XSS  |EASY| [Go to Page](link-to-stored-xss) |
-| Reflected XSS |EASY| [Go to Page](link-to-reflected-xss) |
-| DOM XSS     |EASY| [Go to Page](link-to-dom-xss) |
 
 
 
