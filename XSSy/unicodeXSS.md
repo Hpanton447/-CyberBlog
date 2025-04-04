@@ -1,5 +1,5 @@
-<title>Unicode XSS</title>
-<a href="main.html">Go back to Walkthroughs Page</a>
+<h1>Unicode XSS</h1>
+</h1><a href="main.html">Go back to Walkthroughs Page</a>
 <hr>
     
 <h1>Unicode XSS</h1>
