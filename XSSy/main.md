@@ -12,7 +12,7 @@ For discussions and insights, check out the [GitHub Discussions page](https://gi
 | Section              | Level | Link                              |
 |----------------------|-------|-----------------------------------|
 | Basic-Reflective-XSS  | EASY  | [Go to Page](Basic-Reflective-XSS.md) |
-| Stored XSS            | EASY  | [Go to Page](link-to-stored-xss)  |
+| Stored XSS            | MODERATE  | [Go to Page](unicodeXSS.md)  |
 | Reflected XSS         | EASY  | [Go to Page](link-to-reflected-xss) |
 | DOM XSS               | EASY  | [Go to Page](link-to-dom-xss)     |
 
