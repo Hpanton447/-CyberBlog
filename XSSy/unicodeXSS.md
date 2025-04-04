@@ -1,4 +1,6 @@
 <title>Unicode XSS</title>
+<a href="main.html">Go back to Walkthroughs Page</a>
+<hr>
     
 <h1>Unicode XSS</h1>
 <p>This is my first attempt at a moderate lab and I anticipate that it will take a lot more research and patience than the easy labs. The moderate labs are worth 5 points a pop and this first lab is called Unicode XSS.</p>
@@ -45,3 +47,5 @@
 </ul>
     
 <p>Here are three Unicode characters that appear visually similar but have different Unicode code points. The theory is that while a database may filter standard < and > characters (i.e., less-than and greater-than), using the fullwidth versions ＜ (U+FF1C) and ＞ (U+FF1E) may bypass validation. The sanitisation routine may not recognise these as dangerous, mistakenly treating them as harmless text rather than potential HTML tags, thereby enabling injection of malicious code.</p>
+
+<h1>Finding a Working Exploit</h1>
